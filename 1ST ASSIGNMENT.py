@@ -31,7 +31,7 @@ addition = 2+9 #Does the equation 2+9
 print("Example of addition: 2+2 =",addition)
 
 subtraction = 11-9 #Does the equation 11-9
-print("1Example of subtraction: 1-9 =", subtraction)
+print("Example of subtraction: 1-9 =", subtraction)
 
 multiplication = 2*8 #Does the multiplication 2x8
 print("Example of multiplication: 2x8 =", multiplication)
@@ -59,7 +59,7 @@ print("Lets use the quadratic formula!!")
 print()
 
 print("Write your a value and then press the enter key.")
-a_value = float(input()) #Lets the user input a number of their choice. FLoat gives it ability to have decimals
+a_value = float(input()) #Lets the user input a number of their choice. Float gives it ability to have decimals
 print("Write your b balue and then press the enter key")
 b_value = float(input())
 print("Write your c value and then press the enter key")
@@ -74,8 +74,7 @@ print("The answer to the eqaution b^2-4ac using you values is", ans1)
 print()
 print()
 
-print("Lets find the volume of a cube with a value of your choice")
-
+print("Lets find the volume of a cube, sphere, cone, cylinder with values of your choice")
 
 print("Write a value for the length of the cube.")
 Cube_val = float(input())
@@ -95,6 +94,7 @@ print("Write a value for the height of the cone")
 Cone_val_height = float(input()) #LEts the user pick a value for height
 V_cone = 1/3*math.pi*Cone_val_rad**2*Cone_val_height
 print("The volume of a cone with your given radius and height is", V_cone)
+print()
 
 print("Write a value for the radius of the cylinder")
 Cyl_val_rad = float (input())
