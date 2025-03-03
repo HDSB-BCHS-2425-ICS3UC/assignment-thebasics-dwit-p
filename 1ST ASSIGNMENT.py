@@ -4,14 +4,13 @@
 
 import math
 
-'''
-VARIABLES 
-'''
-I = 2; """Assigns I as 2 - Integer"""
-S = "blue, green and red"; """String"""
-B = True; """Boolean"""
-F = 1.01; """loat/double"""
-C = "A"; """Char"""
+"""VARIABLES""" 
+
+I = 2; #Assigns I as 2 - Integer
+S = "blue, green and red"; #String
+B = True; #Boolean
+F = 1.01; #loat/double
+C = "A"; #Char
 
 print("Examples of types of variables:")
 print() #leaves a blank space to help with organization and better user expereince as it makes it look clean
@@ -23,6 +22,9 @@ print("An example of float and a double is", F)
 print("An example of char is", C)
 print()
 print()
+
+
+"""MATH"""
 
 print("Math equations:")
 print()
@@ -49,10 +51,12 @@ exponent = 2**2 #Squares the nummber before **, which in this case is 2
 print("Example of squared: 2^2 =", exponent)
 
 rem_1 = 24%6 #Finds the modulus 
-print("Example of modulus is: 23%6 =", rem_1)
+print("Example of modulus is: 24%6 =", rem_1)
 print()
 print()
 
+
+"""DISCRIMATE"""
 
 
 print("Lets use the quadratic formula!!")
@@ -60,19 +64,19 @@ print()
 
 print("Write your a value and then press the enter key.")
 a_value = float(input()) #Lets the user input a number of their choice. Float gives it ability to have decimals
-print("Write your b balue and then press the enter key")
+print("Write your b value and then press the enter key")
 b_value = float(input())
 print("Write your c value and then press the enter key")
 c_value = float(input())
 
-b1 = b_value**2
-a1 = a_value*4
-c1 = a1*c_value
-ans1 = b1-c1 #Gets the final answer by subtracting the values b1-c1
+ans1 = b_value**2-4*a_value*c_value
 
 print("The answer to the eqaution b^2-4ac using you values is", ans1)   
 print()
 print()
+
+
+"""VOLUME"""
 
 print("Lets find the volume of a cube, sphere, cone, cylinder with values of your choice")
 
